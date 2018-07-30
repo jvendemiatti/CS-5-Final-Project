@@ -16,7 +16,7 @@ https://www.cs.hmc.edu/csforall/Introduction/Introduction.html)
 The goal of our final project was to create and "evolve" randomly generated
 Picobot programs in a Picobot environment simmulated with Python.
 
-Run the file and use the method GA(popSize, numgens) to simmulate numgens
+Run final.py and use the method GA(popSize, numgens) to simmulate numgens
 generations each consisting of popSize Picobot programs. The first 
 generation consists of programs that are completely randomly generated.
 Each program's "fitness" is then assesed by simmulating it in the Picobot
