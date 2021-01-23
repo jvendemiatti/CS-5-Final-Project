@@ -26,7 +26,7 @@ the robot visited, or was shaded.
 The following generations are created by "breeding" only the  "fittest" 
 programs (highest percentage of environment covered). The universal variable
 CREAMOFTHECROP determines how many programs make it to breeding in each 
-generagion. The "breeding" isdone by the method crossover(self, other). 
+generagion. The "breeding" is done by the method crossover(self, other). 
 There are also occasional "mutations" in the "breeding". 
 
 For each generation, the method GA prints the average fitness of the
@@ -35,11 +35,11 @@ saves a text file containing the top program.
 
 Running GA with a higher population size and more generations yields 
 better programs over time -- but it can take a while. We've been able
-to produce a program that fills 100% of the Picobot environment every time
+to produce a program that fills 100% of the Picobot environment almost every time
 by running GA with popSize = 100 and numgens = 20. It shouldn't take more
 than 5 minutes.
 
-Feel free to eail me, jvendemiatti@hmc.edu, if you have any questions 
+Feel free to email me, jvendemiatti@hmc.edu, if you have any questions 
 or comments!
 
 
